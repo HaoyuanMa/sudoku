@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="@color/colorRank"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+    <TableRow
+        android:id="@+id/itemtablerow">
+        <TextView
+            android:id="@+id/db_date"
+            android:background="@color/colorRankRow"
+            android:layout_height="match_parent"
+            android:layout_margin="3px"
+            android:text=""
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/db_level"
+            android:background="@color/colorRankRow"
+            android:layout_height="match_parent"
+            android:layout_margin="3px"
+            android:text=""
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/db_time"
+            android:background="@color/colorRankRow"
+            android:layout_height="match_parent"
+            android:layout_margin="3px"
+            android:text=""
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+    </TableRow>
+</TableLayout>

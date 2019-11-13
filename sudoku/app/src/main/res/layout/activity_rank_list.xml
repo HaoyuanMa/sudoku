@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RankListActivity">
+<TableLayout
+    android:id="@+id/tableLayout"
+    android:background="@color/colorRank"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    app:layout_constraintBottom_toTopOf="@+id/linearLayout">
+    <TableRow>
+        <TextView
+            android:id="@+id/date"
+            android:background="@color/colorRankRow"
+            android:text="完成日期"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/level"
+            android:background="@color/colorRankRow"
+            android:text="关卡"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/usetime"
+            android:background="@color/colorRankRow"
+            android:text="用时"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </TableRow>
+
+</TableLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+
+        <ListView
+            android:id="@+id/ranklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

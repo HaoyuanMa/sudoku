@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorKeypad">#5fc0a7</color>
+    <color name="colorKeypadClear">#07b195</color>
+    <color name="colorKeypadBackground">#c4e0e1</color>
+    <color name="colorLevelButton_1">#79bce7</color>
+    <color name="colorLevelButton_2">#1fb27f</color>
+    <color name="colorLevelButton_3">#f47a25</color>
+    <color name="colorLevelButton_4">#ee1e4f</color>
+    <color name="finishiDialogBackground">#1fb27f</color>
+    <color name="colorRankRow">#22b6ed</color>
+    <color name="colorRank">#81cdc1</color>
+    <color name="colorMain">#89d2e3</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="@color/finishiDialogBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/finishtable"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+    <TableRow>
+        <TextView
+            android:id="@+id/info1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Congratulations!"
+            android:textAlignment="center"
+            android:textSize="45dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/info2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="You solved it!"
+            android:textAlignment="center"
+            android:textSize="45dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/info3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Time:  "
+            android:textAlignment="center"
+            android:textSize="45dp"/>
+    </TableRow>
+</TableLayout>
