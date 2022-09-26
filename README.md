@@ -25,6 +25,7 @@ Android开发课程作业
 
 ----
 
-[pic-4.3.0]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-1682933a-c290-4a19-a517-c44d14df20fc/e0fe6b57-7883-4a95-9dc0-4dd550be14e8.png
-[pic-4.3.1]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-1682933a-c290-4a19-a517-c44d14df20fc/8a0356c4-ce40-48a8-a28c-c3320bba02d7.png
-[pic-4.3.2]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-1682933a-c290-4a19-a517-c44d14df20fc/8d85d907-37fd-461a-965c-034e0e17e7cf.png
+[pic-4.3.0]: https://images.wait4echo.love/Works/sudoku/wl-sudoku-main.png
+[pic-4.3.1]: https://images.wait4echo.love/Works/sudoku/wl-sudoku-game.png
+[pic-4.3.2]: https://images.wait4echo.love/Works/sudoku/wl-sudoku-rank.png
+
